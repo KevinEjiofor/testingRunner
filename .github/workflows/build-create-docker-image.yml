@@ -48,6 +48,6 @@ jobs:
         run: echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u "${{ secrets.DOCKERHUB_USERNAME }}" --password-stdin
 
       - name: Push to Docker Hub
-        run: docker push kevinejiofor/testing-runner:latest .
+        run: docker push kevinejiofor/testing-runner:latest
 
 
