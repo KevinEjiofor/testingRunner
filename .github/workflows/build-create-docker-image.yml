@@ -42,5 +42,5 @@ jobs:
       - name: Build, tag image
         id: build-image
         run: |
-          docker build -t k33ngtomide\testingRunner:latest .
+          docker build -t kevinejiofor\testingRunner:latest .
 
