@@ -52,5 +52,5 @@ jobs:
       - name: Push Docker image
         run: docker push kevinejiofor/testing-runner:latest
 
-      - name: Verify Docker image
-        run: docker images
+      # - name: Verify Docker image
+      #   run: docker images
